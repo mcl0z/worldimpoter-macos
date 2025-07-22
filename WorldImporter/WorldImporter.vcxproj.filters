@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <!-- 核心模块 -->
+    <Filter Include="源文件\Core">
+      <UniqueIdentifier>{9E7A1D3C-F23A-4BB1-8C67-F3B2D5C1F1A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core">
+      <UniqueIdentifier>{9E7A1D3C-F23A-4BB1-8C67-F3B2D5C1F1A2}</UniqueIdentifier>
+    </Filter>
+    <!-- 世界模块 -->
+    <Filter Include="源文件\World">
+      <UniqueIdentifier>{9E7A1D3C-F23A-4BB1-8C67-F3B2D5C1F1A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\World">
+      <UniqueIdentifier>{9E7A1D3C-F23A-4BB1-8C67-F3B2D5C1F1A4}</UniqueIdentifier>
+    </Filter>
+    <!-- 块模块 -->
+    <Filter Include="源文件\Blocks">
+      <UniqueIdentifier>{9E7A1D3C-F23A-4BB1-8C67-F3B2D5C1F1A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Blocks">
+      <UniqueIdentifier>{9E7A1D3C-F23A-4BB1-8C67-F3B2D5C1F1A6}</UniqueIdentifier>
+    </Filter>
+    <!-- 导出模块 -->
+    <!-- 工具模块 -->
+    <Filter Include="源文件\Utils">
+      <UniqueIdentifier>{9E7A1D3C-F23A-4BB1-8C67-F3B2D5C1F1A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Utils">
+      <UniqueIdentifier>{9E7A1D3C-F23A-4BB1-8C67-F3B2D5C1F1B0}</UniqueIdentifier>
+    </Filter>
+    <!-- 数据格式模块 -->
+    <!-- 渲染模块 -->
+    <Filter Include="头文件\Core\Model">
+      <UniqueIdentifier>{009ae036-fdbf-4bd7-827d-3f792f9c8ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\Model">
+      <UniqueIdentifier>{cb23d563-c8b3-4e48-b7c3-9e708dba008f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Exporter">
+      <UniqueIdentifier>{9E7A1D3C-F23A-4BB1-8C67-F3B2D5C1F1A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Exporter">
+      <UniqueIdentifier>{9E7A1D3C-F23A-4BB1-8C67-F3B2D5C1F1A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\Cache">
+      <UniqueIdentifier>{2b5fba8f-c00a-4934-91f7-56d611c4c435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\Cache">
+      <UniqueIdentifier>{e76bb87b-5458-43ca-9784-e5a87de2531d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\Reader">
+      <UniqueIdentifier>{aa759359-5b73-43ae-b6f8-0185a72b0658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\Reader">
+      <UniqueIdentifier>{ccfb225f-ce5c-482c-978e-31d15b831e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core\Loader">
+      <UniqueIdentifier>{278f5f53-4ccb-4c8a-ab1a-8e38d86180e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core\Loader">
+      <UniqueIdentifier>{3b5c5888-00f3-4009-870c-9bbbb5d8f2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tools">
+      <UniqueIdentifier>{92af3e79-700c-4da8-a8d8-631842594663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tools">
+      <UniqueIdentifier>{549d52de-a542-4719-ac39-ebe3ab0ce2a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <!-- 核心文件 -->
+    <!-- 世界相关文件 -->
+    <!-- 块相关文件 -->
+    <!-- 导出相关文件 -->
+    <!-- 工具相关文件 -->
+    <!-- 数据格式相关文件 -->
+    <!-- 渲染相关文件 -->
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="locutil.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="fileutils.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="nbtutils.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>源文件\Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>源文件\Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="blockstate.cpp">
+      <Filter>源文件\Core\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="biome.cpp">
+      <Filter>源文件\World</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>源文件\World</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelDeduplicator.cpp">
+      <Filter>源文件\Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionModelExporter.cpp">
+      <Filter>源文件\Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjExporter.cpp">
+      <Filter>源文件\Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="JarReader.cpp">
+      <Filter>源文件\Core\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBlock.cpp">
+      <Filter>源文件\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialBlock.cpp">
+      <Filter>源文件\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="Fluid.cpp">
+      <Filter>源文件\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="LODManager.cpp">
+      <Filter>源文件\Blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>源文件\Core\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkGroupAllocator.cpp">
+      <Filter>源文件\Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="decompressor.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalCache.cpp">
+      <Filter>源文件\Core\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionCache.cpp">
+      <Filter>源文件\Core\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="chunk.cpp">
+      <Filter>源文件\World</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkLoader.cpp">
+      <Filter>源文件\Core\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkGenerator.cpp">
+      <Filter>源文件\Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryMonitor.cpp">
+      <Filter>源文件\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskMonitor.cpp">
+      <Filter>源文件\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <!-- 核心文件 -->
+    <!-- 世界相关文件 -->
+    <!-- 块相关文件 -->
+    <!-- 导出相关文件 -->
+    <!-- 工具相关文件 -->
+    <!-- 数据格式相关文件 -->
+    <!-- 渲染相关文件 -->
+    <ClInclude Include="SpecialBlock.h">
+      <Filter>头文件\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBlock.h">
+      <Filter>头文件\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>头文件\Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>头文件\Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="blockstate.h">
+      <Filter>头文件\Core\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="biome.h">
+      <Filter>头文件\World</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>头文件\World</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelDeduplicator.h">
+      <Filter>头文件\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjExporter.h">
+      <Filter>头文件\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionModelExporter.h">
+      <Filter>头文件\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="hashutils.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="fileutils.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="locutil.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="nbtutils.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="JarReader.h">
+      <Filter>头文件\Core\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="LODManager.h">
+      <Filter>头文件\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkGroupAllocator.h">
+      <Filter>头文件\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件\Core\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="decompressor.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalCache.h">
+      <Filter>头文件\Core\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionCache.h">
+      <Filter>头文件\Core\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="chunk.h">
+      <Filter>头文件\World</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkLoader.h">
+      <Filter>头文件\Core\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkGenerator.h">
+      <Filter>头文件\Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="init.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryMonitor.h">
+      <Filter>头文件\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskMonitor.h">
+      <Filter>头文件\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Fluid.h">
+      <Filter>头文件\Blocks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
